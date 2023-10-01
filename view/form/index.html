@@ -2,10 +2,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <div id="form-box">
+        <select name="vagas" id="carSpace">
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="A3">A3</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="B3">B3</option>
+            <option value="C1">C1</option>
+            <option value="C2">C2</option>
+            <option value="C3">C3</option>
+            <option value="D1">D1</option>
+        </select>
+        <input id="apartmentNumber" type="text" placeholder="Número do apartamento">
+        <input id="apartmentBloc" type="text" placeholder="Bloco do apartamento">
+        <input id="carPlate" type="text" placeholder="Placo do carro" >
+        <input id="carModel" type="text" placeholder="Modelo do carro">
+        <input id="carColor" type="text" placeholder="Cor do carro">
+        <button onclick="validateForm()">SALVAR</button>
+        <a href="../home/index.html">
+            <button>SAIR</button>
+        </a>
+    </div>
     
 </body>
-<script src="./another_script.js"></script>
+<script src="../../controller/vagancy_controller.js"></script>
 </html>
